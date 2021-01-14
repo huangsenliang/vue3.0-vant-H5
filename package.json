@@ -1,0 +1,47 @@
+{
+  "name": "mobile-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "lint": "eslint --ext .js,.vue src",
+    "build:prod": "vue-cli-service build",
+    "build:dev": "vue-cli-service build --mode development",
+    "build:stage": "vue-cli-service build --mode staging",
+    "svgo": "svgo -f src/icons/svg --config=src/icons/svgo.yml"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "core-js": "^3.8.2",
+    "js-cookie": "^2.2.1",
+    "normalize.css": "^8.0.1",
+    "nprogress": "^0.2.0",
+    "regenerator-runtime": "^0.13.7",
+    "vant": "^3.0.3",
+    "vconsole": "^3.3.4",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0-0",
+    "vuex": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.10",
+    "@vue/cli-plugin-eslint": "~4.5.10",
+    "@vue/cli-plugin-router": "~4.5.10",
+    "@vue/cli-plugin-vuex": "~4.5.10",
+    "@vue/cli-service": "~4.5.10",
+    "@vue/compiler-sfc": "^3.0.5",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "compression-webpack-plugin": "^6.1.1",
+    "eslint": "^7.17.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.4.1",
+    "postcss-px-to-viewport": "^1.1.1",
+    "prettier": "^2.2.1",
+    "sass": "^1.32.4",
+    "sass-loader": "^10.1.1",
+    "script-ext-html-webpack-plugin": "^2.1.5",
+    "svg-sprite-loader": "^5.2.1",
+    "terser-webpack-plugin": "^4.2.3"
+  }
+}
